@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#a6a9d3"
+
+    android:padding="5dp">
+
+
+<TableLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+
+android:layout_marginLeft="@dimen/feed_item_margin"
+android:layout_marginRight="@dimen/feed_item_margin"
+android:layout_marginTop="@dimen/feed_item_margin"
+android:background="#e4e9fc"
+android:orientation="vertical"
+android:paddingBottom="@dimen/feed_item_padding_top_bottom"
+android:paddingTop="@dimen/feed_item_padding_top_bottom" >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/feed_item_padding_left_right"
+    android:paddingRight="@dimen/feed_item_padding_left_right" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/feed_item_profile_info_padd" >
+
+        <TextView
+            android:id="@+id/location1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/feed_item_profile_name"
+            android:textColor="@color/oil"
+            android:textStyle="bold"
+            android:text="Koteshwor, Kathmandu"/>
+
+        <TextView
+            android:id="@+id/date1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/jumbo"
+            android:textSize="@dimen/feed_item_timestamp"
+        android:text="12-12-2012"/>
+    </LinearLayout>
+</LinearLayout>
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+<TextView
+    android:id="@+id/LabelRate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:textColor="@color/oil"
+    android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+    android:paddingRight="@dimen/feed_item_status_pad_left_right"
+    android:paddingTop="@dimen/feed_item_status_pad_top"
+    android:text="Rate"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:textColor="@color/oil"
+        android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+        android:paddingRight="@dimen/feed_item_status_pad_left_right"
+        android:paddingTop="@dimen/feed_item_status_pad_top"
+        android:text="Rs 20000" />
+
+</TableRow>
+<TableRow>    <TextView
+        android:id="@+id/Labelarea"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:paddingBottom="10dp"
+        android:textColor="@color/oil"
+        android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+        android:paddingRight="@dimen/feed_item_status_pad_left_right"
+        android:text="Area"
+        />
+    <TextView
+    android:id="@+id/area5"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:linksClickable="true"
+    android:paddingBottom="10dp"
+    android:textColor="@color/oil"
+    android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+    android:paddingRight="@dimen/feed_item_status_pad_left_right"
+    android:text="9000 Square Feet."
+  />
+</TableRow>
+    </TableLayout>
+<com.android.volley.toolbox.NetworkImageView
+    android:id="@+id/thumbnail1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:scaleType="fitCenter"
+    android:visibility="visible"
+    android:src="@drawable/ic_menu_camera"/>
+</TableLayout>
+</LinearLayout>
+
+
