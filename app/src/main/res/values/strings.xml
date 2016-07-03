@@ -1,7 +1,15 @@
 <resources>
-    <string name="app_name">Combat Hunger</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">Find Me A Rent</string>
+    <string name="title_activity_profile">Combat Hunger</string>
+    <string name="title_activity_addplace">Add New Post</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

@@ -99,7 +99,7 @@
                         android:paddingLeft="@dimen/feed_item_status_pad_left_right"
                         android:paddingRight="@dimen/feed_item_status_pad_left_right"
                         android:paddingTop="@dimen/feed_item_status_pad_top"
-                        android:text="Rate"/>
+                        android:text="Name"/>
 
                     <TextView
                         android:id="@+id/rate2"
@@ -122,7 +122,7 @@
                     android:textColor="@color/oil"
                     android:paddingLeft="@dimen/feed_item_status_pad_left_right"
                     android:paddingRight="@dimen/feed_item_status_pad_left_right"
-                    android:text="Area"
+                    android:text="Quantity"
                     />
                     <TextView
                         android:id="@+id/area2"

@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_id": "find-me-a-rent",
+    "project_number": "51584679591",
+    "name": "Find me a rent"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51584679591:android:17050e378e874f43",
+        "client_id": "android:com.example.dell.login1",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.dell.login1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51584679591-nhn4koq07es86np1c8bmgq3htijguhns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.login1",
+            "certificate_hash": "46F19256CC8C5AA7F295C1CBD6954F3CC7BC9A0D"
+          }
+        },
+        {
+          "client_id": "51584679591-4td63bmuuh60bsvd3ba31o7lj36ud5mm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51584679591:android:ce41b8e1091cdd05",
+        "client_id": "android:com.aashish.dell.findmearent",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.aashish.dell.findmearent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51584679591-bdvkccjqv89jvkmrqvmjal6itgnseaq4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aashish.dell.findmearent",
+            "certificate_hash": "46F19256CC8C5AA7F295C1CBD6954F3CC7BC9A0D"
+          }
+        },
+        {
+          "client_id": "51584679591-4td63bmuuh60bsvd3ba31o7lj36ud5mm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
